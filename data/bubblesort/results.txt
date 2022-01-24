@@ -1,0 +1,55 @@
+# Every result had 50 runs with 10000 items
+
+# bubblesort-c-version
+            Mean        Std.Dev.    Min         Median      Max
+real        0.180       0.013       0.157       0.186       0.194
+user        0.178       0.013       0.154       0.184       0.193
+sys         0.001       0.002       0.000       0.000       0.004
+
+# bubblesort-cpp-version
+            Mean        Std.Dev.    Min         Median      Max
+real        0.181       0.011       0.160       0.184       0.202
+user        0.179       0.011       0.150       0.183       0.198
+sys         0.002       0.002       0.000       0.000       0.012
+
+# julia bubblesort-golem.jl
+            Mean        Std.Dev.    Min         Median      Max
+real        0.430       0.050       0.361       0.424       0.741
+user        0.658       0.037       0.581       0.656       0.747
+sys         0.860       0.056       0.795       0.853       1.184
+
+# julia bubblesort-rosetta.jl
+            Mean        Std.Dev.    Min         Median      Max
+real        0.367       0.018       0.325       0.366       0.405
+user        0.615       0.031       0.554       0.618       0.690
+sys         0.842       0.033       0.751       0.840       0.912
+
+# julia bubblesort-julia-optimized.jl
+            Mean        Std.Dev.    Min         Median      Max
+real        0.390       0.022       0.350       0.390       0.427
+user        0.630       0.042       0.538       0.634       0.718
+sys         0.851       0.038       0.753       0.856       0.932
+
+# python3 src/bubblesort/golem.py
+            Mean        Std.Dev.    Min         Median      Max
+real        10.957      0.755       10.120      10.905      15.816
+user        10.945      0.754       10.103      10.900      15.800
+sys         0.009       0.006       0.000       0.008       0.028
+
+# python3 src/bubblesort/fast.py
+            Mean        Std.Dev.    Min         Median      Max
+real        6.564       0.150       6.320       6.530       6.896
+user        6.554       0.150       6.311       6.516       6.884
+sys         0.008       0.005       0.000       0.008       0.024
+
+# python3 src/bubblesort/jit.py
+            Mean        Std.Dev.    Min         Median      Max
+real        0.784       0.026       0.732       0.784       0.842
+user        1.279       0.043       1.193       1.278       1.390
+sys         1.813       0.046       1.703       1.817       1.888
+
+# python3 src/bubblesort/sorted.py
+            Mean        Std.Dev.    Min         Median      Max
+real        0.041       0.013       0.022       0.046       0.054
+user        0.031       0.012       0.009       0.032       0.054
+sys         0.009       0.006       0.000       0.008       0.023
