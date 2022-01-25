@@ -4,7 +4,7 @@ SHELL := /bin/bash
 
 preliminary:
 	# Install global system pip and venv (its possible as user, but not very common)
-	sudo apt install python3-pip python3-venv python3-tk linux-tools-common linux-tools-generic
+	sudo apt install python3-pip python3-venv python3-tk linux-tools-common linux-tools-generic julia build-essential
 	
 	# Install pipx (see https://pypi.org/project/pipx/)
 	python3 -m pip install --user pipx
