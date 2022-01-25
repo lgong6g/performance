@@ -9,5 +9,5 @@ except ModuleNotFoundError:
 
 if __name__ == "__main__":
   for i in range(1000):
-    random_numer_list.create(path='data/fileio/' + str(i) + '.txt')
+    random_number_list.create(path='data/fileio/' + str(i) + '.txt')
     random_number_list.read(path='data/fileio/' + str(i) + '.txt')
